@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+    android:padding="4dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/studentNameTV"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:text="Oliullah">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/studentCgpaTV"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            tools:text="Cgpa"
+            android:layout_below="@id/studentNameTV">
+        </TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
